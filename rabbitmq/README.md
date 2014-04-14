@@ -6,6 +6,10 @@ Docker container for RabbitMQ 3.3.x with ability to form cluster
 Usage
 =====
 
+Start a Serf master using
+
+`SERF_ID=$(docker run -d --name serf_1 -p 7946 -p 7373 ctlc/serf /run.sh)`
+
 Master
 ------
 
